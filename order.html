@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase</title>
+    <style>
+        h1 {
+    color: aqua;
+    background-color: rgb(133, 96, 253);
+    text-align: center;
+    font-size: 45px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+    </style>
+
+</head>
+
+<body>
+    <h1>
+        Add to cart
+        <a href="cart.html">
+        <img src="cart.jpeg" width="30%" height="60%" alt="logo" class="logo">
+
+        </a>
+    </h1>
+    
+   
+    <div class="nain">
+        <img src="whey.jpeg" width="20%" height="20%" alt="Snow">
+
+        <button class="btn" onclick="gotobuy()">Buy Now</button>
+        <button class="btn" onclick="gotocart()">Add to Cart</button>
+      </div>
+      <script>
+        
+        function gotocart() {
+          window.location.href = "cart.html"
+        }
+        function gotobuy() {
+          window.location.href = "buying_option.html"
+        }
+
+    </script>
+   
+
+    <div class="nain">
+        <img src="laptop.jpeg" width="20%" height="20%" alt="Snow">
+        <button class="btn" onclick="gotobuy()">Buy Now</button>
+        <button onclick="gotocart()">Add to Cart</button>
+      </div>
+
+
+      <div class="nain">
+        <img src="milk.jpeg" width="20%" height="20%" alt="Snow">
+        <button class="btn" onclick="gotobuy()">Buy Now</button>
+        <button onclick="gotocart()">Add to Cart</button>
+      </div>
+
+
+      
+
+      <div class="nain">
+        <img src="tshirt.jpeg" width="20%" height="20%" alt="Snow">
+        <button class="btn" onclick="gotobuy()">Buy Now</button>
+        <button onclick="gotocart()">Add to Cart</button>
+      </div>
+
+
+</body>
+
+</html>
